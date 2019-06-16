@@ -13,33 +13,11 @@ $ npm install arabic-diacritics-regex
 ## Usage
 
 ```js
-const arabicDiacriticsRegex = require('arabic-diacritics-regex');
+const arabicDiacriticsRegex = require('arabic-diacritics-regex')
 
-arabicDiacriticsRegex('unicorns');
-//=> 'unicorns & rainbows'
+arabicDiacriticsRegex.test('هَذَا كَاتِبٌ')
+//=> true
 ```
-
-
-## API
-
-### arabicDiacriticsRegex(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 
 ## License
