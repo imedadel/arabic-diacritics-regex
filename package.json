@@ -1,6 +1,6 @@
 {
 	"name": "arabic-diacritics-regex",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Regex for matching Arabic diacritics",
 	"license": "MIT",
 	"repository": "ImedAdel/arabic-diacritics-regex",
